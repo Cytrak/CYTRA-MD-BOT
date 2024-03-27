@@ -1,0 +1,6 @@
+build:
+  docker:
+      worker: Flash_Md
+run:
+  worker: npm start
+ 
