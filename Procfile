@@ -1,1 +1,1 @@
-worker: node flash.js
+web: npm start
