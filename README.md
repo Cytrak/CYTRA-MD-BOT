@@ -43,17 +43,17 @@
 
 
 ### CONTRIBUTIONS 
--Contributions to Flash-Md are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+-Contributions to CYTRA-MD are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
 ***
 
 ### LICENSE 
--The FLASH-MD is released under the [MIT License](https://opensource.org/licenses/MIT).
+-The CYTRA-MD is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 -Enjoy the diverse features of the Flash-Md  to enhance your conversations and make your WhatsApp experience more interesting!
 
 ***
-### DEVELOPER:
+###MAKER:
 **GET In Touch with The Owner**
 - [**On Instagram**](https://instagram.com/Cytra_k9)
 - [**Via WhatsApp**](https://wa.me/254715155196)
