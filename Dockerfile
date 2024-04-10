@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/franceking1/Flash-MD.git  /root/FlashMd
-WORKDIR /root/FlashMD/
+RUN git clone https://github.com/Cytrak/CYTRA-MD-BOT.git  /root/FlashMd
+WORKDIR /root/CYTRA-MD/
 
 
 COPY package.json .
