@@ -1,41 +1,41 @@
 {
   "name":"FLASH-MD",
-  "description":"An easy and simple WhatsApp bot developed by France King",
+  "description":"An easy and simple WhatsApp bot developed by Cytra_k9",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
-  "repository":"https://github.com/franceking1/Flash-Md",
+  "repository":"https://github.com/Cytrak/CYTRA-MD-BOT",
   "succes_url":"/",
   "stack":"container",
   "env":{
     "PREFIX":
     {
-      "description":"choose your prefix of bot",
+      "description":"choose your prefix of bot you nigga",
       "value":".",
       "required":true
     },
     "AUTO_READ_STATUS":
     {
-      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter(na hausukwi))",
       "value":"yes",
       "required":false
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
       "value":"yes",
-      "required":false
+      "required":true
     }
     ,
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
-      "required":false
+      "required":true
     }
     ,
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"FLASH-MD",
+      "value":"CYTRA-MD",
       "required":false
 
     } ,
@@ -54,38 +54,38 @@
     }
 	,
     "HEROKU_API_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
+    "description": "insert your heroku api-key (this is not optional)",
+     "required" :true
     },
    "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
+    "description": "insert your heroku APP NAME (this is optional)",
      "required" :false
     }  
 	  ,
-    "SESSION_ID":
+    "SESSION_IDENTIFICATION":
     {
-      "description":"put your session ID , make sure it starts with eyJub2I...",   
+      "description":"put your session Identification, make sure it starts with eyJub***.",   
       "value":"",
       "required": true
 
     },
-    "OWNER_NAME":
+    "OWNER_NAME":Cytra_k9
     {
     
-    "desc": "Your Name",
+    "desc": "CYTRA",
     "required": false,
-    "value": "France King"
+    "value": "Cytra_k9"
   },
-    "OWNER_NUMBER":
+    "OWNER_NUMBER":254715155196
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254757835036"
+    "value": "254715155196"
   },
     "WARN_COUNT":
   {
-    "desc": "this is the limit of warn for warning commandes",
+    "desc": "this is the limit of warn for warning commandes (toka mbwa hii)",
     "required": false,
     "value": "3"
   },
@@ -97,7 +97,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"1",
     "required": false
   }  
   },
