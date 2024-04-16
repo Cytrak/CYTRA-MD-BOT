@@ -56,5 +56,4 @@
 **GET In Touch with The Owner**
 - [**On Instagram**](https://instagram.com/Cytra_k9)
 - [**Via WhatsApp**](https://wa.me/254715155196)
-- [**Via Email**]
-{jackwaikwa1@gmail.com}
+- [**Via Email**] (jackwaikwa1@gmail.com)
