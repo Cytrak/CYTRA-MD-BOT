@@ -8,7 +8,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'zokk',
-    PREFIXE: process.env.PREFIX || "+",
+    PREFIX: process.env.PREFIX || "+",
     OWNER_NAME: process.env.OWNER_NAME || "Cytrak9",
     NUMERO_OWNER : process.env.OWNER_NUMBER || "254715155196",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "oui",
@@ -16,7 +16,7 @@ module.exports = { session: process.env.SESSION_ID || 'zokk',
     BOT : process.env.BOT_NAME || 'CYTRA-MD',
     OPENAI_API_KEY : process.env.OPENAI_API_KEY || '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',
     URL : process.env.BOT_MENU_LINKS || 'https://static.animecorner.me/2023/08/op2.jpg',
-    MODE: process.env.PUBLIC_MODE || "no",
+    MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
     HEROKU_APY_KEY : process.env.HEROKU_API_KEY ,
