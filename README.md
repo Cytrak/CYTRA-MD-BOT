@@ -11,10 +11,9 @@
 <a href="https://github.com/Cytrak/CYTRA-MD-BOT"><img title="MAKER" src="https://img.shields.io/badge/FLASH_MD-black?style=for-the-badge&logo=github"></a>
 <p/>
 <p align="center">
-<a href="https://github.com/Cytrak/CYTRA-MD-BOTtab=followers"><img title="Followers" src="https://img.shields.io/github/followers/franceking1?label=Followers&style=social"></a>
+<a href="https://github.com/Cytrak/CYTRA-MD-BOTtab=followers"><imglabel=Followers&style=social"></a>
 <a href="https://github.com/Cytrak/CYTRA-MD-BOT"><img title="MOON" src="https://img.shields.io/github/stars/franceking1/Flash-Md?&style=social"></a>
 <a href="https://github.com/Cytrak/CYTRA-MD-BOT"><img title="Forks" src="https://img.shields.io/github/forks/franceking1/Flash-Md?style=social"></a>
- src="https://img.shields.io/github/watchers/franceking1/Flash-Md?label=Watching&style=social"></a>
   
 ***
 
@@ -22,7 +21,7 @@
 
 ***1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/Cytrak/CYTRA-MD-BOT) It***
 
-***2.`Get Session ID` by [`SCANING QR`](https://flash-md-qr.onrender.com) Or [`PAIRING CODE`](https://flash-md-sessions-7bae55bf04f1.herokuapp.com/pair)***
+***2.`Get Session ID` by [`SCANING QR`](https://flash-md-qr.onrender.com) Or [`PAIRING CODE`](https://pair-flaash-a1897ea752f7.herokuapp.com/pair)***
 
 *-Copy The Session ID to paste it in Heroku*
 
