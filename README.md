@@ -3,7 +3,7 @@
 
 ***
   
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS FOR CHOOSING +CYTRAMD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+CYTRA_K9;RELEASED+22.2.2024+Mimi ndo yule beast" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS FOR CHOOSING +CYTRAMD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+CYTRA_K9;RELEASED+22.2.2024" alt="Typing SVG" /></a>
   </p>
     <img alt="CYTRA_K9" width="700" height="303" src="https://i.ibb.co/K9vFy15/IMG-20240414-WA0059.jpg">
 <p align="center">
@@ -56,6 +56,5 @@
 **GET In Touch with The Owner**
 - [**On Instagram**](https://instagram.com/Cytra_k9)
 - [**Via WhatsApp**](https://wa.me/254715155196)
-  -[**via Email**]
-  (jackwaikwa1@gmail.com)
-
+- [**Via Email**]
+{jackwaikwa1@gmail.com}
