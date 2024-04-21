@@ -55,12 +55,12 @@ france({ nomCom: "developer", categorie: "General", reaction: "💞" }, async (d
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "France King", numero: "254757835036" },
-      { nom: "᚛FranceKing᚜", numero: "254750948696" },
+      { nom: "France King", numero: "254715155196" },
+      { nom: "᚛FranceKing᚜", numero: "254715155196" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 *Welcome to Flash-Md!* here is the developer numbers:\n\n";
+    let message = "👋 *Welcome to Cytra-Md!* here is the developer numbers:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
