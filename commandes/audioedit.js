@@ -123,7 +123,7 @@ france(
             repondre("Error : " + e);
           }
         } else {
-          repondre("The command only works with audio messages");
+          repondre("The command only works with audio messages you fool");
         }
       } else {
         repondre("Please mention an audio");
@@ -233,7 +233,7 @@ france(
             repondre("Error : " + e);
           }
         } else {
-          repondre("The command only works with audio messages");
+          repondre("The command only works with audio messages you fool");
         }
       } else {
         repondre("Please mention an audio");
