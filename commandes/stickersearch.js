@@ -11,7 +11,7 @@ async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg, nomAuteurMessage } = commandeOptions;
 
   if (!arg[0]) {
-    repondre("where is the request ? !");
+    repondre("where is the request(use ur brain)? !");
     return;
   }
 
@@ -33,9 +33,9 @@ async (dest, zk, commandeOptions) => {
 
     const stickerMess = new Sticker(gifUrl, {
       pack: packname,
-      author: 'FLASH-MD',
+      author: 'Cytra-MD',
       type: StickerTypes.FULL,
-      categories: ["🤩", "🎉"],
+      categories: ["🤩", "🎉", "💯"],
       id: "12345",
       quality: 60,
       background: "transparent",
