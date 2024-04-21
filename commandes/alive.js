@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *FLASH-MD by France King is alive*`
+ *CYTRA-MD by Cytra_k9 is alive*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -74,11 +74,11 @@ else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
       await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
-         repondre("don't do fake things :)")
+         repondre("shinda hapo na alive:)")
      }
  } else {
 
-    if(!superUser) { repondre ("Only the owner can  modify the alive") ; return};
+    if(!superUser) { repondre ("Only the owner can  modify the alive fala wewe") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre('message alive refresh successfully')
+repondre('message alive refresh successfully :)')
 
 }
     });
