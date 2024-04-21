@@ -25,7 +25,7 @@ france(
 
       } else {
 
-        repondre('mention a sticker')
+        repondre('mention a sticker bro')
       }
 
     }) ; 
