@@ -30,7 +30,7 @@ await zk.sendMessage(dest,{video:{url:video},caption:texte},{quoted:ms})
 }
 }else
 {
-   return repondre("this message is not on view once .")
+   return repondre("this message is not on view once(tumianga akili sometimes).")
 }
 
 
