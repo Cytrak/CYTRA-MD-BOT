@@ -42,7 +42,7 @@ france({
   const { arg, repondre } = commandeOptions;
   
   if (!arg[0] || arg === "") {
-    repondre("Give me a query.\n*Example: .google What is a bot.*");
+    repondre("Give me a query.\n*Example: .google Who made Cytra-MD?*");
     return;
   }
 
@@ -71,7 +71,7 @@ france({
   const { arg, repondre , ms } = commandeOptions;
 
   if (!arg[0] || arg === "") {
-    repondre("give the name of a series or film.");
+    repondre("give the name of a series or movie mbwa hii");
     return;
   }
 
@@ -110,7 +110,7 @@ france({
       quoted: ms,
     });
   } catch (error) {
-    repondre("An error occurred while searching IMDb.");
+    repondre("An error occurred while searching your fucking shit.");
   }
 });
 
@@ -122,7 +122,7 @@ france({
   const { arg, repondre,ms , nomAuteurMessage } = commandeOptions;
 
   if (!arg[0] || arg.length !== 1) {
-    repondre("Incorrect use. Example: .emojimix 😀;🥰");
+    repondre("Incorrect use. Example: .emojimix 🖕;🥰");
     return;
   }
 
@@ -145,7 +145,7 @@ france({
       // Si la requête a réussi, envoyez l'image résultante
       
       let stickerMess = new Sticker(response.data.result, {
-        pack: FLASH-MD,
+        pack: Cytra-MD
         type: StickerTypes.CROPPED,
         categories: ["🤩", "🎉"],
         id: "12345",
@@ -159,7 +159,7 @@ france({
       repondre("Unable to create emoji mix.");
     }
   } catch (error) {
-    repondre("An error occurred while creating the emoji mix." + error );
+    repondre("An error occurred while creating the emoji mix please think like a human being." + error );
   }
 });
 
