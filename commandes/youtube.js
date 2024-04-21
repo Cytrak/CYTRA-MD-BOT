@@ -15,7 +15,7 @@ france({
   const { ms, repondre, arg } = commandeOptions;
      
   if (!arg[0]) {
-    repondre("wich song do you want.");
+    repondre("Bro ni ngomma gani unadai we mjinga.");
     return;
   }
 
@@ -36,7 +36,7 @@ france({
 *Url :* _${videos[0].url}_
 
 
-_*DOWNLOADING...*_\n\n`
+_*DOWNLOADING... please 🫷*_\n\n`
        }
 
       
@@ -106,7 +106,7 @@ france({
         caption: `*Video name :* _${Element.title}_
 *Time :* _${Element.timestamp}_
 *Url :* _${Element.url}_
-_*DOWNLOADING...*_\n\n`
+_*DOWNLOADING... please 🫷*_\n\n`
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
