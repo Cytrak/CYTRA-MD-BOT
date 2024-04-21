@@ -1,21 +1,21 @@
 {
   "name":"Cytra-MD",
-  "description":"An easy and simple WhatsApp bot developed by France King",
+  "description":"An easy and simple WhatsApp bot developed by Cytra_k9",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
+  "logo":"https://telegra.ph/file/6238d670a279057951ba5.jpg",
   "repository":"https://github.com/franceking1/Flash-Md",
   "succes_url":"/",
   "stack":"container",
   "env":{
-    "PREFIX":
+    "PREFIX":.
     {
-      "description":"choose your prefix of bot",
+      "description":"choose your prefix of bot nigga 😁",
       "value":".",
       "required":true
     },
     "AUTO_READ_STATUS":
     {
-      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter you mf)",
       "value":"yes",
       "required":false
     }, "AUTO_DOWNLOAD_STATUS":
@@ -73,15 +73,15 @@
     {
     
     "desc": "Your Name",
-    "required": false,
-    "value": "France King"
+    "required": true,
+    "value": "Cytra_k9"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254757835036"
+    "value": "254715155196"
   },
     "WARN_COUNT":
   {
@@ -97,7 +97,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"1",
     "required": false
   }  
   },
