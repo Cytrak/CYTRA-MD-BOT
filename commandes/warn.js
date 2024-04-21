@@ -26,14 +26,14 @@ if(verifAdmin || superUser) {
  } else { 
 
     var rest = warnlimit - warn ;
-     repondre(`this user is warned , rest before kick : ${rest} `)
+     repondre(`this user is warned , rest before kick 🦵🦵: ${rest} `)
    }
 } else if ( arg[0] === 'reset') { await resetWarnCountByJID(auteurMsgRepondu) 
 
-    repondre("Warn count is reset for this user")} else ( repondre('reply to a user by typing  .warn ou .warn reset'))
+    repondre("Warn count is reset for this user at last the nigga is free 🤯")} else ( repondre('reply to a user by typing  .warn ou .warn reset'))
    
 }  else {
-    repondre('you are not admin')
+    repondre('you are not admin bro/sis')
 }
  
    });
