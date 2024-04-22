@@ -14,7 +14,7 @@ async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg } = commandeOptions;
 
   if (!arg[0]) {
-    repondre('which image ? !');
+    repondre('which image nigga🥲 ? !');
     return;
   }
 
