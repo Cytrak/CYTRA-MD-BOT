@@ -5,7 +5,7 @@ const axios = require('axios');
 
 france({
   nomCom: "hwaifu",
-  categorie: "Hentai",
+  categorie: "Tabia mbaya",
   reaction: "🙄"
 },
 async (origineMessage, zk, commandeOptions) => {
@@ -27,7 +27,7 @@ async (origineMessage, zk, commandeOptions) => {
   /////////////// hneko //////////
 france({
   nomCom: "trap",
-  categorie: "Hentai",
+  categorie: "Tabia mbaya",
   reaction: "🙄"
 },
 async (origineMessage, zk, commandeOptions) => {
@@ -47,7 +47,7 @@ async (origineMessage, zk, commandeOptions) => {
 
 france({
   nomCom: "hneko",
-  categorie: "Hentai",
+  categorie: "Tabia mbaya",
   reaction: "🙄"
 },
 async (origineMessage, zk, commandeOptions) => {
@@ -67,8 +67,8 @@ async (origineMessage, zk, commandeOptions) => {
 
 
 france({
-  nomCom: "blowjob",
-  categorie: "Hentai",
+  nomCom: "bj",
+  categorie: "Tabia mbaya",
   reaction: "🙄"
 },
 async (origineMessage, zk, commandeOptions) => {
