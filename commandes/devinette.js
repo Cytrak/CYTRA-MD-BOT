@@ -12,7 +12,7 @@ const devinettes = [
   },
   {
     question: "I'm strong when I'm down, but I'm weak when I'm up. Who am I ?",
-    reponse: "The number 6",
+    reponse: "The number 6 or 9",
   },
   {
     question: "I can be short or long, hard or soft, I can be used by anyone, from young children to experienced musicians. Who am I ?",
