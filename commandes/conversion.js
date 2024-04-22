@@ -70,7 +70,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"FLASH-MD",
+      pack:"CYTRA-MD",
       author: nomAuteurMessage,
       type:
         arg.includes("crop") || arg.includes("c")
@@ -94,7 +94,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"FLASH-MD", // pack stick
+      pack:"CYTRA-MD", // pack stick
       author:  nomAuteurMessage, // name of the author of the stick
       type:
         arg.includes("-r") || arg.includes("-c")
@@ -210,7 +210,7 @@ france({ nomCom: "write", categorie: "Conversion", reaction: "👨🏿‍💻" }
   }
 
   if (!msgRepondu.imageMessage) {
-    repondre('The command only works with images');
+    repondre('The command only works with images try to use ur brain');
     return;
   } ;
   text = arg.join(' ') ;
@@ -252,7 +252,7 @@ france({ nomCom: "write", categorie: "Conversion", reaction: "👨🏿‍💻" }
     // Create the sticker
     const stickerMess = new Sticker(meme, {
       pack: nomAuteurMessage,
-      author: 'FLASH-MD',
+      author: 'CYTRA-MD',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",
