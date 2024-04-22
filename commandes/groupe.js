@@ -29,7 +29,7 @@ france({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, 
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        🌟 *FLASH-MD* 🌟
+        🌟 *CYTRA-MD* 🌟
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Author : *${nomAuteurMessage}* 👋 
@@ -248,7 +248,7 @@ france({ nomCom: "remove", categorie: 'Group', reaction: "👨🏿‍💼" }, as
             if (admin == false) {
               const gifLink = "https://raw.githubusercontent.com/djalega8000/france-MD/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: 'FLASH-MD', // The pack name
+                pack: 'CYTRA-MD', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
@@ -323,7 +323,7 @@ france({ nomCom: "del", categorie: 'Group',reaction:"🧹" }, async (dest, zk, c
   const { ms, repondre, verifGroupe,auteurMsgRepondu,idBot, msgRepondu, verifAdmin, superUser} = commandeOptions;
 
   if (!msgRepondu) {
-    repondre("Please mention the message to delete.");
+    repondre(" mention the message to delete and stop wasting time..");
     return;
   }
   if(superUser && auteurMsgRepondu==idBot )
@@ -358,7 +358,7 @@ france({ nomCom: "del", categorie: 'Group',reaction:"🧹" }, async (dest, zk, c
 
          await zk.sendMessage(dest,{delete:key});return;
 
-             }catch(e){repondre( "I need admin rights.")}
+             }catch(e){repondre( "I need admin rights please make me one.")}
 
 
                }else{repondre("Sorry, you are not an administrator of the group.")}
@@ -466,7 +466,7 @@ france({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions)
 
 
   if (!verifGroupe) {
-    return repondre("*for groups only*");
+    return repondre("_*for groups only*_");
   }
 
   if( superUser || verifAdmin) {
@@ -477,7 +477,7 @@ france({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions)
       if(arg[0] === 'on') {
 
 
-       if(enetatoui ) { repondre("the antibot is already activated for this group")
+       if(enetatoui ) { repondre("the antibot is already activated for this group learn to have memory")
                     } else {
                   await atbajouterOuMettreAJourJid(dest,"oui");
 
@@ -540,7 +540,7 @@ france({ nomCom: "group", categorie: 'Group' }, async (dest, zk, commandeOptions
         break;
       case "close":
         await zk.groupSettingUpdate(dest, 'announcement');
-        repondre('Group close successfully');
+        repondre('Izeni nimefunga group');
         break;
       default: repondre("Please don't invent an option")
     }
@@ -559,7 +559,7 @@ france({ nomCom: "left", categorie: "Mods" }, async (dest, zk, commandeOptions) 
   const { repondre, verifGroupe, superUser } = commandeOptions;
   if (!verifGroupe) { repondre("order reserved for group only"); return };
   if (!superUser) {
-    repondre("command reserved for the bot owner");
+    repondre("command reserved for my handsome owner only so fuck off 🖕");
     return;
   }
   await repondre('sayonnara') ;
@@ -572,7 +572,7 @@ france({ nomCom: "gname", categorie: 'Group' }, async (dest, zk, commandeOptions
   const { arg, repondre, verifAdmin } = commandeOptions;
 
   if (!verifAdmin) {
-    repondre("order reserved for administrators of the group");
+    repondre("order reserved for administrators of the group and fuck off 🖕");
     return;
   };
   if (!arg[0]) {
@@ -610,11 +610,11 @@ france({ nomCom: "revoke", categorie: 'Group' }, async (dest, zk, commandeOption
   const { arg, repondre, verifGroupe, verifAdmin } = commandeOptions;
 
   if (!verifAdmin) {
-    repondre("for admins.");
+    repondre("for admins fuck off .");
     return;
   };
 
-if(!verifGroupe)  { repondre('This command is only allowed in groups.')} ;
+if(!verifGroupe)  { repondre('This command is only allowed in groups only.')} ;
 
   await zk.groupRevokeInvite(dest)
 
@@ -629,7 +629,7 @@ france({ nomCom: "gpp", categorie: 'Group' }, async (dest, zk, commandeOptions) 
   const { repondre, msgRepondu, verifAdmin } = commandeOptions;
 
   if (!verifAdmin) {
-    repondre("order reserved for administrators of the group");
+    repondre("you fool ur not an admin so fuck off 🖕");
     return;
   }; 
   if (msgRepondu.imageMessage) {
@@ -643,7 +643,7 @@ france({ nomCom: "gpp", categorie: 'Group' }, async (dest, zk, commandeOptions) 
 )
 
   } else {
-    repondre('Please mention an image')
+    repondre('Please mention an image bro')
   }
 
 });
@@ -714,7 +714,7 @@ france({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,comman
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'FLASH-MD-tag',
+          pack: 'CYTRA-MD-tag',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -768,7 +768,7 @@ france({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, 
     const searchResults = await search(appName);
 
     if (searchResults.length === 0) {
-      return repondre("*can't find application, please enter another name*");
+      return repondre("*can't find application, please enter another name(ama hujui jina useme ngombe hii)*");
     }
 
     const appData = await download(searchResults[0].id);
@@ -780,7 +780,7 @@ france({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, 
 
     const downloadLink = appData.dllink;
     const captionText =
-      "『 *FLASH-MD App* 』\n\n*Name :* " + appData.name +
+      "『 *CYTRA-MD App* 』\n\n*Name :* " + appData.name +
       "\n*Id :* " + appData["package"] +
       "\n*Last Update :* " + appData.lastup +
       "\n*Size :* " + appData.size +
