@@ -206,7 +206,7 @@ france( {
          } else if ( data.level >= 45 || data.level < 50 ) {
             role = 'Otsusuki'
          } else {
-            role = 'level-GOD'
+            role = 'level-MIGHTY'
          }
     
     
@@ -283,7 +283,7 @@ france( {
          } else if ( data.level >= 45 || data.level < 50 ) {
             role = 'Otsusuki'
          } else {
-            role = 'level-GOD'
+            role = 'level-MIGHTY'
          }
             msg += `-----------------------
             
